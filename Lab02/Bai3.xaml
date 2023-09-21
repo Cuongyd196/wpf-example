@@ -1,0 +1,67 @@
+﻿<Window x:Class="Lab02.Bai3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab02"
+        mc:Ignorable="d"
+        Title="Demo_Định dạng chữ" Height="470" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid Height="450" VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="214*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="lblNhapTen" Content="Nhập tên" HorizontalAlignment="Left" Margin="40,28,0,0" VerticalAlignment="Top" Height="24" Width="112"/>
+        <TextBox x:Name="txtNhapTen" HorizontalAlignment="Left" Margin="157,28,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="193" Height="24" PreviewTextInput="txtNhapTen_PreviewTextInput"/>
+        <GroupBox Header="Color" Margin="35,80,200,76">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+                <RadioButton x:Name="radioBtnBlack" Grid.Row="0" VerticalAlignment="Center" Content="Black" Checked="radioBtnBlack_Checked"></RadioButton>
+                <RadioButton Foreground="Orange" x:Name="radioBtnOrange" Grid.Row="1" VerticalAlignment="Center" Content="Orange" Checked="radioBtnOrange_Checked"></RadioButton>
+                <RadioButton Grid.Row="2" VerticalAlignment="Center" Content="Green"></RadioButton>
+                <RadioButton Grid.Row="3" VerticalAlignment="Center" Content="Blue"></RadioButton>
+                <RadioButton Grid.Row="4" VerticalAlignment="Center" Content="Gray"></RadioButton>
+                <RadioButton Grid.Row="5" VerticalAlignment="Center" Content="LightGray"></RadioButton>
+                <RadioButton Grid.Row="6" VerticalAlignment="Center" Content="Red"></RadioButton>
+            </Grid>
+
+
+        </GroupBox>
+        <GroupBox Header="Font" Margin="254,90,36,202">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+                <CheckBox x:Name="cbBold" Grid.Row="0" VerticalAlignment="Center" Content="Bold" Checked="cbBold_Checked" FontWeight="Bold" Unchecked="cbBold_Unchecked"></CheckBox>
+                <CheckBox x:Name="cbItalic" Grid.Row="1" VerticalAlignment="Center" Content="Italic" Checked="cbItalic_Checked" FontStyle="Italic" Unchecked="cbItalic_Unchecked"></CheckBox>
+                <CheckBox x:Name="cbUnderline" Grid.Row="2" VerticalAlignment="Center" Checked="cbUnderline_Checked" Unchecked="cbUnderline_Unchecked">
+                    <CheckBox.Content>
+                        <TextBlock Text="Underline" TextDecorations="Underline"/>
+                    </CheckBox.Content>
+                </CheckBox>
+            </Grid>
+
+        </GroupBox>
+        <Label x:Name="lblLapTrinh" HorizontalAlignment="Left" Margin="40,379,0,0" VerticalAlignment="Top">
+            <Label.Content>
+                <TextBlock x:Name="textblockLaptrinh" Text="Lập trình bởi:"/>
+            </Label.Content>
+        </Label>
+        <Label x:Name="lblTen" HorizontalAlignment="Left" Margin="142,379,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.066,0.001">
+            <Label.Content>
+                <TextBlock x:Name="textblockTen"/>
+            </Label.Content>
+        </Label>
+
+    </Grid>
+</Window>
