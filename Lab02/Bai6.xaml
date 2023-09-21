@@ -1,0 +1,20 @@
+﻿<Window x:Class="Lab02.Bai6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab02"
+        mc:Ignorable="d"
+        Title="Bai6" Height="450" Width="800">
+    <Grid>
+        <Label Content="LISTBOX" HorizontalAlignment="Left" Margin="358,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.589,-0.307" Height="34" Width="109"/>
+        <GroupBox Header="Listbox" Margin="35,80,589,80">
+            <Grid>
+                <ListBox x:Name="listboxNumber"  Margin="0,68,0,0"/>
+                <TextBox x:Name="txtSo" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144" Height="25"/>
+            </Grid>
+        </GroupBox>
+        <Button x:Name="btnNhap" Content="Nhập" HorizontalAlignment="Left" Margin="107,132,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.47,0.079" Click="btnNhap_Click"/>
+
+    </Grid>
+</Window>
