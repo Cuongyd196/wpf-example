@@ -1,0 +1,15 @@
+﻿<Window x:Class="ToolTip.ToolTipsSimpleSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToolTip"
+        mc:Ignorable="d"
+        Title="ToolTipsSimpleSample"  Height="150" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Button ToolTip="Click here to show messenger!" Margin="-108,0,108,0" RenderTransformOrigin="0.72,0.39">Click here!</Button>
+
+        <Button ToolTip="Click here to show messenger toolTipService.ShowDuration: 5000ms!" ToolTipService.ShowDuration="5000" Margin="103,0,-103,0">Click here ShowDuration!</Button>
+
+    </Grid>
+</Window>

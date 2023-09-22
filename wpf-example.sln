@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab02", "Lab02\Lab02.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBar", "ProgressBar\ProgressBar.csproj", "{975577EF-34AF-483D-9006-B80EF4F78D0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolTip", "ToolTip\ToolTip.csproj", "{BECBCB0D-6C6A-448F-941E-5B9D81154D4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{975577EF-34AF-483D-9006-B80EF4F78D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{975577EF-34AF-483D-9006-B80EF4F78D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{975577EF-34AF-483D-9006-B80EF4F78D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BECBCB0D-6C6A-448F-941E-5B9D81154D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BECBCB0D-6C6A-448F-941E-5B9D81154D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BECBCB0D-6C6A-448F-941E-5B9D81154D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BECBCB0D-6C6A-448F-941E-5B9D81154D4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
