@@ -1,0 +1,30 @@
+﻿<Window x:Class="ProgressBar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProgressBar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Content="The ProgressBar control" HorizontalAlignment="Left" Margin="268,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="-1,-0.261" Height="52" Width="282" FontSize="22"/>
+        <Button x:Name="btnProgressBarSample"  Grid.Row="1" Content="ProgressBarSample" Height="40" Width="300" Click="btnProgressBarSample_Click">
+        </Button>
+        <Button x:Name="btnTaskOnUiThread" Grid.Row="2" Content="ProgressBarTaskOnUiThread" Height="40" Width="300" Click="btnTaskOnUiThread_Click">
+        </Button>
+        <Button x:Name="btnTaskOnWorkerThread" Grid.Row="3" Content="ProgressBarTaskOnWorkerThread" Height="40" Width="300" Click="btnTaskOnWorkerThread_Click">
+        </Button>
+        <Button x:Name="btnIndeterminateSample" Grid.Row="4" Content="ProgressBarIndeterminateSample" Height="40" Width="300" Click="btnIndeterminateSample_Click">
+        </Button>
+        <Button x:Name="btnTextSample" Grid.Row="5" Content="ProgressBarTextSample" Height="40" Width="300" Click="btnTextSample_Click">
+        </Button>
+    </Grid>
+</Window>

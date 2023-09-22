@@ -1,10 +1,8 @@
 .vs
 .idea
-./Lab01/bin
-./Lab01/obj
-./Lab02/bin
-./Lab02/obj
 /Lab01/bin
 /Lab01/obj
 /Lab02/bin
 /Lab02/obj
+/ProgressBar/bin
+/ProgressBar/obj
