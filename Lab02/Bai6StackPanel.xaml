@@ -1,0 +1,33 @@
+﻿<Window x:Class="Lab02.Bai6StackPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab02"
+        mc:Ignorable="d"
+        Title="Bai6StackPanel" Height="450" Width="600">
+    <StackPanel>
+        <StackPanel  HorizontalAlignment="Center">
+            <TextBlock  Text="LISTBOX"></TextBlock>
+        </StackPanel>
+        <Separator></Separator>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <GroupBox Width="200" Margin="3" Header="Listbox">
+                <StackPanel>
+                    <TextBox Margin="3">
+                        
+                    </TextBox>
+                    <Button Margin="3" Content="Nhập"> </Button>
+                    <ListBox Margin="3" Height="200">
+                        
+                    </ListBox>
+                    
+                </StackPanel>
+                
+            </GroupBox>
+            <GroupBox Width="300" Margin="3" Header="Xử lý listbox">
+                
+            </GroupBox>
+        </StackPanel>
+    </StackPanel>
+</Window>

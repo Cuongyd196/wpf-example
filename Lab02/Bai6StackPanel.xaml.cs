@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Lab02
 {
     /// <summary>
-    /// Interaction logic for Bai6.xaml
+    /// Interaction logic for Bai6StackPanel.xaml
     /// </summary>
-    public partial class Bai6 : Window
+    public partial class Bai6StackPanel : Window
     {
-        public Bai6()
+        public Bai6StackPanel()
         {
             InitializeComponent();
         }

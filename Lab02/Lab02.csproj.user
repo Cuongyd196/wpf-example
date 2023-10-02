@@ -10,9 +10,15 @@
     <Compile Update="Bai3.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Bai6StackPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Bai3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Bai6StackPanel.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">

@@ -5,16 +5,46 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab02"
         mc:Ignorable="d"
-        Title="Bai6" Height="450" Width="800">
+        Title="Bai6" Height="450" Width="600">
     <Grid>
-        <Label Content="LISTBOX" HorizontalAlignment="Left" Margin="358,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.589,-0.307" Height="34" Width="109"/>
-        <GroupBox Header="Listbox" Margin="35,80,589,80">
-            <Grid>
-                <ListBox x:Name="listboxNumber"  Margin="0,68,0,0"/>
-                <TextBox x:Name="txtSo" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144" Height="25"/>
-            </Grid>
-        </GroupBox>
-        <Button x:Name="btnNhap" Content="Nhập" HorizontalAlignment="Left" Margin="107,132,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.47,0.079" Click="btnNhap_Click"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="6*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Center" Grid.Row="0" Text="LISTBOX" FontSize="24" FontWeight="Bold"></TextBlock>
+        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Grid.Row="1">
+            <GroupBox Margin="5" Height="300" Width="200" Header="Listbox">
+                <StackPanel>
+                    <TextBox Margin="5" ></TextBox>
+                    <Button Margin="5"  Content="Nhập"></Button>
+                    <ListBox Margin="5"  Height="200">
+                        
+                    </ListBox>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Margin="5" Height="300" Width="250"  Header="Xử lý Listbox">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"></RowDefinition>
+                        <RowDefinition Height="1*"></RowDefinition>
+                        <RowDefinition Height="1*"></RowDefinition>
+                        <RowDefinition Height="1*"></RowDefinition>
+                        <RowDefinition Height="1*"></RowDefinition>
+                        <RowDefinition Height="1*"></RowDefinition>
+                        <RowDefinition Height="1*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Button Margin="5"  Content="Tổng các phần tử tronglist" Grid.Row="0"></Button>
+                    <Button Margin="5" Content=" Xoá phần tử đầu và cuối" Grid.Row="1"></Button>
+                    <Button Margin="5" Content="Xoá phần phần tử đang chọn" Grid.Row="2"></Button>
+                    <Button Margin="5" Content="Tăng mỗi phần tử lên 2" Grid.Row="3"></Button>
+                    <Button Margin="5"  Content="Thay bằng bình phương" Grid.Row="4"></Button>
+                    <Button Margin="5"  Content="Chọn số chẵn" Grid.Row="5"></Button>
+                    <Button Margin="5" Content="Chọn số lẻ" Grid.Row="6"></Button>
 
+                </Grid>
+            </GroupBox>
+        </StackPanel>
+        <Button HorizontalAlignment="Center" Grid.Row="2" Height="25" Width="100" Content="Kết thúc"></Button>
     </Grid>
 </Window>
