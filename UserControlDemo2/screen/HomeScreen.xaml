@@ -1,0 +1,14 @@
+﻿<Window x:Class="UserControlDemo2.screen.HomeScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserControlDemo2.control"
+        mc:Ignorable="d"
+        Title="HomeScreen" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <StackPanel>
+        <local:HeaderControl />
+        <local:NavigationMenuControl />
+        <TextBlock  Margin="50" FontWeight="Bold" FontSize="20" Text="Home Screen Content" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+    </StackPanel>
+</Window>
