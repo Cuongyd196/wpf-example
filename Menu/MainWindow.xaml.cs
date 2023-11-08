@@ -27,8 +27,7 @@ namespace Menu
 
         private void btnTrangChu_Click(object sender, RoutedEventArgs e)
         {
-            // Đặt nội dung MainContent cho Home
-            MainContent.Content = new TrangChuUserControl();
+            MainContent.Content = new SachUserControl();
         }
 
         private void btnLoaiSach_Click(object sender, RoutedEventArgs e)
@@ -36,9 +35,9 @@ namespace Menu
             MainContent.Content = new LoaiSachUserControl();
         }
 
-        private void btnGioiThieu_Click(object sender, RoutedEventArgs e)
+        private void btnNguoiDung_Click(object sender, RoutedEventArgs e)
         {
-            MainContent.Content = new GioiThieuUserControl();
+            MainContent.Content = new NguoiDungUserControl();
         }
     }
 }

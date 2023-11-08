@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Menu.control
 {
     /// <summary>
-    /// Interaction logic for TrangChuUserControl.xaml
+    /// Interaction logic for NguoiDungUserControl.xaml
     /// </summary>
-    public partial class TrangChuUserControl : UserControl
+    public partial class NguoiDungUserControl : UserControl
     {
-        public TrangChuUserControl()
+        public NguoiDungUserControl()
         {
             InitializeComponent();
         }
