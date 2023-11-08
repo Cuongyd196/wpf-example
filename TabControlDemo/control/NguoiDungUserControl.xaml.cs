@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Menu.control
+namespace TabControlDemo.control
 {
     /// <summary>
-    /// Interaction logic for SachUserControl.xaml
+    /// Interaction logic for NguoiDungUserControl.xaml
     /// </summary>
-    public partial class SachUserControl : UserControl
+    public partial class NguoiDungUserControl : UserControl
     {
-        public SachUserControl()
+        public NguoiDungUserControl()
         {
             InitializeComponent();
         }

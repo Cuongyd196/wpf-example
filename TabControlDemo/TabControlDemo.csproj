@@ -63,10 +63,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="control\SachUserControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -80,9 +76,6 @@
     </Compile>
     <Compile Include="control\NguoiDungUserControl.xaml.cs">
       <DependentUpon>NguoiDungUserControl.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="control\SachUserControl.xaml.cs">
-      <DependentUpon>SachUserControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

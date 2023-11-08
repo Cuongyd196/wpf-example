@@ -55,15 +55,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="control\GioiThieuUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="control\LoaiSachUserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="control\NguoiDungUserControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="control\SachUserControl.xaml">
+    <Page Include="control\TrangChuUserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -75,14 +75,14 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="control\GioiThieuUserControl.xaml.cs">
+      <DependentUpon>GioiThieuUserControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="control\LoaiSachUserControl.xaml.cs">
       <DependentUpon>LoaiSachUserControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="control\NguoiDungUserControl.xaml.cs">
-      <DependentUpon>NguoiDungUserControl.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="control\SachUserControl.xaml.cs">
-      <DependentUpon>SachUserControl.xaml</DependentUpon>
+    <Compile Include="control\TrangChuUserControl.xaml.cs">
+      <DependentUpon>TrangChuUserControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

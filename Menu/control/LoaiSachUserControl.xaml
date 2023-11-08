@@ -7,7 +7,9 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <TextBlock HorizontalAlignment="Center" Text=" NỘI DUNG QUẢN LÝ LOẠI SÁCH"></TextBlock>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock FontWeight="Bold" FontSize="16" Margin="10" Text="Loại sách"></TextBlock>
 
+        </StackPanel>
     </Grid>
 </UserControl>

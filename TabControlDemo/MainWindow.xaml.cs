@@ -12,8 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Menu.control;
-namespace Menu
+
+namespace TabControlDemo
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,22 +23,6 @@ namespace Menu
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void btnTrangChu_Click(object sender, RoutedEventArgs e)
-        {
-            // Đặt nội dung MainContent cho Home
-            MainContent.Content = new TrangChuUserControl();
-        }
-
-        private void btnLoaiSach_Click(object sender, RoutedEventArgs e)
-        {
-            MainContent.Content = new LoaiSachUserControl();
-        }
-
-        private void btnGioiThieu_Click(object sender, RoutedEventArgs e)
-        {
-            MainContent.Content = new GioiThieuUserControl();
         }
     }
 }
