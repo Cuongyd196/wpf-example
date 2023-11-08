@@ -3,21 +3,22 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Menu.control"
+        xmlns:local="clr-namespace:Menu"
+        xmlns:uc="clr-namespace:Menu.control"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <DockPanel>
         <!-- Menu Panel -->
         <StackPanel DockPanel.Dock="Left" Width="200" Background="#FF333940">
-            <Button x:Name="btnTrangChu" Content="Trang chủ" Height="50" Click="btnTrangChu_Click"  />
+            <Button x:Name="btnTrangChu" Content="Quản lý sách" Height="50" Click="btnTrangChu_Click"  />
             <Button x:Name="btnLoaiSach" Content="Quản lý loại sách" Height="50" Click="btnLoaiSach_Click"  />
-            <Button x:Name="btnGioiThieu" Content="Giới thiệu ứng dụng" Height="50" Click="btnGioiThieu_Click"  />
+            <Button x:Name="btnNguoiDung" Content="Quản lý người dùng" Height="50" Click="btnNguoiDung_Click"  />
             <!-- Thêm các nút khác tại đây -->
         </StackPanel>
         <!-- Main Content -->
         <ContentControl x:Name="MainContent">
             <!-- Nội dung chính của ứng dụng sẽ được đặt ở đây -->
-            <local:TrangChuUserControl/>
+            <uc:SachUserControl/>
         </ContentControl>
     </DockPanel>
 </Window>

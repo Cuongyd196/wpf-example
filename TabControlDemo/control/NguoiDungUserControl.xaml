@@ -19,11 +19,11 @@
         </DataGrid>
         <StackPanel>
             <StackPanel Margin="5"  Orientation="Horizontal" HorizontalAlignment="Center">
-                <Button x:Name="btnThemND" Content="Thêm" Width="100" Margin="5" ></Button>
-                <Button x:Name="btnSuaND" Content="Sửa" Width="100" Margin="5" ></Button>
-                <Button x:Name="btnXoaND" Content="Xóa" Width="100" Margin="5" ></Button>
-                <Button x:Name="btnTaiLaiND" Content="Tải lại" Width="100" Margin="5" ></Button>
-                <Button x:Name="btnThoatND" Content="Thoát" Width="100" Margin="5" ></Button>
+                <Button x:Name="btnThem" Content="Thêm" Width="100" Margin="5" ></Button>
+                <Button x:Name="btnSua" Content="Sửa" Width="100" Margin="5" ></Button>
+                <Button x:Name="btnXoa" Content="Xóa" Width="100" Margin="5" ></Button>
+                <Button x:Name="btnTaiLai" Content="Tải lại" Width="100" Margin="5" ></Button>
+                <Button x:Name="btnThoat" Content="Thoát" Width="100" Margin="5" ></Button>
             </StackPanel>
         </StackPanel>
     </StackPanel>
